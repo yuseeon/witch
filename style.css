@@ -1,0 +1,232 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+/* .hc { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+p {
+    text-decoration: none;
+}
+
+div.banner {
+    display: block;
+    background: #ccc;
+    width: 497px;
+    height: 576px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    font-family: 'Lora', serif;
+    background-image: url(./image/우주.gif);
+    background-position: 0 0, right top;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 583px;
+    height: 576px;
+    left: -33px;
+    top: 0px;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: pumpkin;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes pumpkin {
+    0% { }
+    55% { }
+    65% { }
+    80% { opacity: 0;}
+    90% { opacity: 1;}
+    94% { opacity: 0.4;}
+    96.3% { opacity: 1;}
+    97% { opacity: 0.4;}
+    99.3% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
+.witch_b {
+    position: absolute;
+    width: 451px;
+    height: 416px;
+    right: 0px;
+    top: 120px;
+    animation-name: witch;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+.witch_w {
+    position: absolute;
+    width: 451px;
+    height: 416px;
+    right: 0px;
+    top: 125px;
+    animation-name: witch;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    /* animation-direction:  */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.2s; */
+}
+
+@keyframes witch {
+    0% { right: -800px; }
+    10% { }
+    20% { }
+    70% { right: 40px;}
+    80% { right: 800px;}
+    100% { right: 800px;}
+}
+
+.ghost {
+    position: absolute;
+    width: 186px;
+    height: 102px;
+    left: -40px;
+    top: 294px;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes ghost {
+    0% { }
+    50% { opacity: 0;}
+    60% { opacity: 1;}
+    70% { opacity: 1;}
+    80% { opacity: 0;}
+    100% { opacity: 0;}
+}
+
+.candy {
+    position: absolute;
+    width: 112px;
+    height: 72px;
+    left: 319px;
+    top: 288px;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+
+.candy2 {
+    position: absolute;
+    width: 118px;
+    height: 70px;
+    left: 269px;
+    top: 459px;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+.trick {
+    position: absolute;
+    width: 206px;
+    height: 109px;
+    left: 27px;
+    top: 30.84px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 109px;
+    color: #FD7801;
+    transform: rotate(-6.36deg);
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+.or {
+    position: absolute;
+    width: 64px;
+    height: 83px;
+    left: 255.05px;
+    top: 53.81px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 83px;
+    color: #FFAD00;
+    transform: rotate(4.11deg);
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+.treat {
+    position: absolute;
+    width: 257px;
+    height: 109px;
+    left: 221px;
+    top: 116px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 109px;
+    color: #FD7801;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+.halloween {
+    position: absolute;
+    width: 392px;
+    height: 45px;
+    left: 53px;
+    top: 523px;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FD7801;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: ghost;
+    animation-duration: 13s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
