@@ -13,11 +13,6 @@ body {
     height: 100vh;
 }
 
-/* .hc { top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
 p {
     text-decoration: none;
 }
@@ -117,8 +112,8 @@ div.banner {
 }
 
 @keyframes ghost {
-    0% { }
-    50% { opacity: 0;}
+    0% {}
+    50% { opacity: 1;}
     60% { opacity: 1;}
     70% { opacity: 1;}
     80% { opacity: 0;}
@@ -227,10 +222,4 @@ div.banner {
     color: #FD7801;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    opacity: 0;
-    animation-iteration-count: infinite;
-    animation-name: ghost;
-    animation-duration: 13s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-fill-mode: forwards;
 }
